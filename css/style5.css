@@ -1,0 +1,561 @@
+*{margin:0;padding:0;}
+a{text-decoration:none;color:#323232;}
+ul,ol{list-style:none;}
+body{
+font-family: 'Noto Sans KR', sans-serif;
+	font-size:12px;
+	line-height:15px;
+	min-width: 1320px;
+}
+/*header*/
+
+#header{
+
+	margin:auto;
+	height: 115px;
+	background:#6e8ec9;
+	text-align: center;
+}
+
+#header h1{
+	padding-top: 25px;
+	
+}
+
+#gnb_wrap{
+	text-align: center;
+
+}
+
+#gnb{
+	height: 45px;
+	display: inline-block;
+
+	
+}
+
+#gnb li{
+	padding-top: 15px;
+	float: left;
+
+}
+
+#gnb li a{
+	display: block;
+	font-size: 15px;
+	padding: 0 30px;
+	color: #323232;
+}
+
+#gnb li a:hover{
+	color: #aab5ca;
+}
+
+/*헤더끝*/
+
+
+/*전체감쌈*/
+#content_wrap{
+  width: 1320px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 130px;
+}
+
+
+.contact{
+	text-align: left;
+	font-size: 60px;
+	color: #83b0d7;
+	border-bottom: #83b0d7;
+	width: 445px;
+	height: 55px;
+	border-bottom: 7px solid #83b0d7;
+	margin-bottom: 65px;
+}
+
+
+#callwrap{
+	width:1004px;
+	height: 190px;
+	margin: 0 auto;
+	margin-bottom: 250px;
+}
+
+#call{
+	width: 1000px;
+	height: 300px;
+}
+
+.callimg{
+	background-image: url(../images/image/seatdog.png);
+	background-position: right top;
+	background-repeat: no-repeat;
+	width: 258px;
+	height: 239px;
+	float: right;
+}
+
+.sp0{
+	float: left;
+	font-size: 18px;
+	width: 500px;
+	text-align: left;
+}
+
+
+#call2{
+	margin-top: 40px;
+	font-size: 14px;
+	float: left;
+	color: #645e64;
+}
+
+
+#call2 p{
+	float: left;
+}
+
+.sp1{
+	border: 1px solid #645e64;
+	padding: 5px;
+	margin-right: 20px;
+}
+
+.sp2{
+	border: 1px solid #645e64;
+	padding: 5px;
+}
+
+.sp1 a:hover{
+color: #6e8ec9;
+}
+
+.sp2 a:hover{
+	color: rgb(54, 9, 48);
+	}
+
+.sp1:hover{
+	border: 1px solid #ffffff;
+	padding: 5px;
+	
+	background-color: #d9e5f0;
+}
+
+.sp2:hover{
+	border: 1px solid #ffffff;
+	padding: 5px;
+	
+	background-color: #FFEB34;
+}
+
+.box{
+	padding-top: 20px;
+}
+
+
+#three_menu{
+  text-align: center;
+  width: 288px;
+  height: 24px;
+  margin: 0 auto;
+	padding-bottom: 100px;
+}
+
+
+.th li:nth-child(1) a{
+  background-color: #cad8f7;
+}
+
+.th li:nth-child(2) a{
+  background-color: #aabeeb;
+}
+
+.th li:nth-child(3) a{
+  background-color: #93a7d5;
+}
+
+.th li{
+
+  padding-top: 5px;
+  float: left;
+  width: 96px;
+  font-size: 18px;
+
+}
+
+.th li a{
+display: block;
+padding: 7px 0 7px 0;
+}
+
+#inq{
+
+	background-image: url(../images/banner/inq.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 78px;
+	margin-bottom: 100px;
+
+}
+
+.side{
+	padding-top: 47px;
+	padding-left: 7px;
+	font-size: 24px;
+	text-align: left;
+}
+
+/*폼*/
+#box_wrap{
+	width: 1100px;
+	height: 500px;
+	margin: 0 auto;
+	margin-bottom: 70px;
+}
+
+
+.form input[type="button"]{/*input속성값꾸미기*/
+	cursor: pointer;/*a태그사용한것처럼 
+	마우스 커서에 손모양이 보이게 설정한다.*/
+}
+
+.box1{
+float: left;
+width:509px;
+height:500px;
+background-color: #fbfcff;
+}
+
+.box2{
+	float: right;
+	width:509px;
+	height:500px;
+	background-color: #fbfcff;
+	}
+
+.box2 textarea{
+	padding: 10px;
+	width: 400px;
+	height: 280px;
+	box-sizing: boredr-box;
+	resize: none;
+	}
+	
+.sm2{
+	padding-bottom: 15px;
+}	
+	.box1 p.s1{
+		color: #04102b;
+		font-size: 18px;
+		overflow: hidden;
+	}
+
+	.box2 p{
+		color: #04102b;
+		font-size: 18px;
+	
+	}
+
+.box2 form{
+	text-align: left;
+}
+
+.small1{
+	font-size: 14px;
+	color: #586873;
+}
+
+.box1 form{
+	width: 390px;
+	text-align: left;
+	padding-left: 60px;
+	padding-top: 60px;
+}
+
+.box1 form input{
+display: block;
+width: 275px;
+height: 18px;
+float: right;
+padding-bottom: 10px;
+}
+
+.box1 form p span{
+	margin-top: 9px;
+	display: block;
+	width: 90px;
+	padding-bottom: 20px;
+	float: left;
+}
+
+
+.box1 form textarea{
+	float: right;
+	width: 276px;
+	height: 200px;
+	display: block;
+	resize: none;
+}
+
+.gain{
+	font-size: 10px;
+	padding-top: 10px;
+}
+	
+
+#inq_wrap{
+	padding-bottom: 138px;
+	font-size: 18px;
+}
+
+.button{
+	height: 42px;
+	width: 109px;
+	background-color: #586873;
+	margin: 0 auto;
+
+}
+
+.button p{
+	text-align: center;
+	font-size: 18px;
+	padding-top: 12px;
+	color: #ffffff;
+}
+
+.sm{
+	font-size: 14px;
+	clear: both;
+	line-height: 20px;
+	padding-top: 20px;
+
+}
+
+.sm2{
+	font-size: 14px;
+	display: block;
+	margin-top: 55px;
+}
+
+#qna_wrap{
+background-image: url(../images/image/dogup.png);
+background-repeat: no-repeat;
+background-position: bottom 90px left;
+}
+
+#qna{
+
+	background-image: url(../images/banner/qna.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 78px;
+	margin-bottom: 150px;
+}
+
+
+
+
+.qnaside p{
+	font-size: 18px;
+}
+
+.qnaside2 p{
+	font-size: 18px;
+	padding-bottom: 15px;
+}
+
+.qnaside img{
+padding: 45px;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+
+.small{
+	display: block;
+	font-size: 14px;
+	color: #8a8a8a;
+	padding-bottom: 100px;
+}
+
+.ask{
+	padding-top: 15px;
+}
+.asked{
+padding-bottom: 90px;
+}
+.asked p{
+	font-size: 18px;
+	padding-bottom: 15px;
+}
+
+
+/*지도*/
+#map_top{
+	width: 1320px;
+	margin: 0 auto;
+	background-image: url(../images/banner/map.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 78px;
+	margin-top: 110px;
+	
+
+}
+
+
+.side2{
+	padding-top: 47px;
+	padding-left: 7px;
+	font-size: 24px;
+	text-align: left;
+	color: rgb(255, 255, 255);
+}
+
+#map_wrap{
+	width: 1320px;
+	height: 633px;
+	background-color: #f6f7fc;
+	margin: 0 auto;
+	margin-bottom: 200px;
+}
+
+.map{
+	width: 133px;
+	height: 135;
+	margin: 50px;
+	float: left ;
+}
+
+.text_wrap{
+	width: 600px;
+	height: 500px;
+
+	float: right;
+	background-image: url(../images/icon/juso.png);
+	background-repeat: no-repeat;
+	background-position: left 10px top 67px;
+}
+
+.text p{
+	font-size: 14px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+}
+.text p:nth-child(1){
+	padding-top: 72px;
+	padding-bottom: 20px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.text p:nth-child(2){
+	padding-bottom: 50px;
+}
+
+.text p:nth-child(3){
+	padding-bottom: 30px;
+}
+
+.text p:nth-child(4){
+	padding-bottom: 10px;
+	style: border-bottom: 1px
+}
+
+.line{
+	padding: 30px 0;
+	font-weight bold;
+}
+
+.text2_wrap{
+	width: 600px;
+	height: 500px;
+	float: right;
+	background-image: url(../images/icon/junhwa.png);
+	background-repeat: no-repeat;
+	background-position: left 10px top 40px;
+}
+
+.text2 p{
+	font-size: 14px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+}
+.text2 p:nth-child(1){
+	padding-top: 40px;
+	padding-bottom: 20px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+
+.text2 p:nth-child(4){
+	padding-bottom: 10px;
+	style: border-bottom: 1px
+}
+
+
+/*footer*/
+#footer_wrap{
+	margin:0 auto;
+	width: 100%;
+	height: 280px;
+	background-color: #242025;
+	color: #fdfdfd;
+	font-size: 10px;
+	}
+	
+	#footer{
+	width: 1320px;
+	height: 280px;
+	margin: 0 auto;
+	background-image:url(../images/logo/footerlogo.png);
+	background-repeat: no-repeat;
+	background-position: left 60px center;
+	}
+	
+	.footerin{
+	padding-top: 85px;
+	width: 475px;
+	float: left;
+	margin-left: 430px;
+	}
+	
+	.span2{
+		float: left;
+	}
+	
+	.span3{
+	float: right;
+	}
+	
+	
+	#icons_wrap{
+	
+		width: 175px;
+		height: 60px;
+		float: right;
+		padding-top: 140px ;
+		padding-right: 100px;
+		text-align: center;
+	
+	}
+	
+	
+	.icons{
+		text-align: center;
+		width: 175px;
+	}
+	
+	.icons li{
+		
+		float: left;
+		width: 25%;
+		height: 30px;
+		margin: 0 auto;
+		
+	}
+	

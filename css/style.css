@@ -1,0 +1,294 @@
+*{margin:0;padding:0;}
+a{text-decoration:none;color:#000;}
+ul,ol{list-style:none;}
+body{
+font-family: 'Noto Sans KR', sans-serif;
+	font-size:12px;
+	line-height:15px;
+	min-width: 1320px;
+}
+/*header*/
+
+#header{
+
+	margin:auto;
+	height: 115px;
+	background:#6e8ec9;
+	text-align: center;
+}
+
+#header h1{
+	padding-top: 25px;
+	
+}
+
+#gnb_wrap{
+	text-align: center;
+
+}
+
+#gnb{
+	height: 45px;
+	display: inline-block;
+
+	
+}
+
+#gnb li{
+	padding-top: 15px;
+	float: left;
+
+}
+
+#gnb li a{
+	display: block;
+	font-size: 15px;
+	padding: 0 30px;
+	color: #323232;
+}
+
+#gnb li a:hover{
+
+	color: #aab5ca;
+
+}
+
+.movie{
+	text-align: center;
+	padding-bottom: 150px;
+	width: 1320px;
+	margin:0 auto;
+	
+}
+
+
+
+#banner1_wrap{
+width: 1320px;
+margin: 0 auto;
+padding-bottom: 150px;
+}
+
+.banner1{
+background-image:url(../images/banner/banner_1.jpg);
+background-repeat: no-repeat;
+height: 274px;
+text-align: center;
+}
+
+.banner1 a{
+	width: 1320px;
+	height: 274px;
+
+}
+
+
+.text01{
+	color: #ffffff;
+	font-size: 30px;
+	text-shadow: 2px 2px 2px #000000;
+	padding-top: 38px;
+	padding-bottom: 62px;
+	font-weight: bold;
+}
+
+.text02{
+	color: #181818;
+	font-size: 18px;
+	text-shadow: 0 0 3px #ffffff;
+	font-weight: bold;
+	padding-bottom: 45px;
+}
+
+.text03{
+	color: #ffffff;
+	font-size: 16px;
+	text-shadow: 2px 2px 2px #000000;
+}
+
+
+h2{
+	padding-bottom: 20px;
+}
+
+/*div2 서비스*/ 
+
+#banner2_wrap{
+	width: 100%;
+	/*height: 520px;*/
+	margin: 0 auto;
+	padding-bottom: 150px;
+	
+}
+
+.banner2_logo{
+	width: 1320px;
+	margin: auto;
+}
+
+#iconbox_wrap{
+	width: 100%;
+	height: 472px;
+	margin: 0 auto;
+	background-color: #dfdad1;
+
+}
+
+.iconbox{
+width: 1303px;
+height: 272px;
+padding-top: 60px;
+padding-bottom: 23px;
+margin: 0 auto;
+}
+
+
+#textbox_wrap{
+	width: 1303px;
+	height: 276px;
+	margin: 0 auto;
+	font-size: 18px;
+	text-align: center;
+	
+
+}
+
+.textbox li{
+		text-align: center;
+		width: 25%;
+		float: left;
+		padding-top: 20px;
+}
+
+.iconbox li{
+	text-align: center;
+	width: 25%;
+	float: left;
+}
+
+
+.span1{
+	color: #ffffff;
+}
+
+
+/*물품*/
+
+#product_wrap{
+	width: 1320px;
+	/*height: 515px;*/
+	margin: 0 auto;
+	padding-bottom: 150px;
+	text-align: center;
+
+}
+
+.prlogo{
+	padding-bottom: 45px;
+}
+
+
+.pr{/*수정추가*/
+	text-align: left;
+	padding-left: 30px;
+}
+
+.span00{
+	color: #6e8ec9;
+	font-weight: bold;
+	font-size: 18px;
+}
+.span0{
+	color: #83b0d7;
+	display: block;/*수정추가*/
+	margin-top : 10px;
+}
+
+
+.pdimg li{
+width: 25%;
+float: left;
+height: 382px;
+text-align: left;
+}
+
+.pr{
+	padding-top: 20px;
+}
+
+
+#kakao{
+	width: 1320px;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 150px;
+}
+
+
+#open{
+	text-align: center;
+	padding-bottom: 150px;
+
+}
+
+
+/*footer*/
+#footer_wrap{
+	margin:0 auto;
+	width: 100%;
+	height: 280px;
+	background-color: #242025;
+	color: #fdfdfd;
+	font-size: 10px;
+	}
+	
+	#footer{
+	width: 1320px;
+	height: 280px;
+	margin: 0 auto;
+	background-image:url(../images/logo/footerlogo.png);
+	background-repeat: no-repeat;
+	background-position: left 60px center;
+	}
+	
+	.footerin{
+	padding-top: 85px;
+	width: 475px;
+	float: left;
+	margin-left: 430px;
+	}
+	
+	.span2{
+		float: left;
+	}
+	
+	.span3{
+	float: right;
+	}
+	
+	
+	#icons_wrap{
+
+		height: 60px;
+		float: right;
+		padding-top: 140px ;
+		padding-right: 100px;
+		text-align: center;
+	
+	}
+	
+	
+	.icons{
+		text-align: center;
+		width: 175px;
+	}
+	
+	.icons li{
+		
+		float: left;
+		width: 25%;
+		height: 30px;
+		margin: 0 auto;
+		
+	}
+	

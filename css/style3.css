@@ -1,0 +1,309 @@
+*{margin:0;padding:0;}
+a{text-decoration:none;color:#000;}
+ul,ol{list-style:none;}
+body{
+font-family: 'Noto Sans KR', sans-serif;
+	font-size:12px;
+	line-height:15px;
+	min-width: 1320px;
+}
+/*header*/
+
+#header{
+
+	margin:auto;
+	height: 115px;
+	background:#6e8ec9;
+	text-align: center;
+}
+
+#header h1{
+	padding-top: 25px;
+	
+}
+
+#gnb_wrap{
+	text-align: center;
+
+}
+
+#gnb{
+	height: 45px;
+	display: inline-block;
+
+	
+}
+
+#gnb li{
+	padding-top: 15px;
+	float: left;
+
+}
+
+#gnb li a{
+	display: block;
+	font-size: 15px;
+	padding: 0 30px;
+	color: #323232;
+}
+
+#gnb li a:hover{
+	color: #aab5ca;
+}
+
+/*헤더끝*/
+
+
+#service{
+  background-image: url(../images/banner/service.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  width: 1320px;
+  height: 340px;
+
+
+}
+
+.st{
+  text-align: center;
+	color: #ffffff;
+	font-size: 60px;
+	text-shadow: 1px 2px 5px #000000;
+  font-weight: bold;
+  padding-top: 150px;
+
+}
+
+/*메뉴4개*/
+#four_menu{
+  text-align: center;
+  width: 385px;
+  height: 22px;
+  margin: 0 auto;
+  margin-bottom: 140px;
+}
+
+.four li:nth-child(1) a{
+  background-color: #6e88c2;
+}
+
+.four li:nth-child(2) a{
+  background-color: #6e8ec9;
+}
+
+.four li:nth-child(3) a{
+  background-color: #93a7d5;
+}
+
+.four li:nth-child(4) a{
+  background-color: #aabeeb;
+}
+
+.four li a{
+
+  padding-top: 5px;
+  float: left;
+  width: 96px;
+  height: 22px;
+  font-size: 18px;
+
+}
+
+.span1{
+  background-color: #939db1;
+
+}
+
+/*콘텐츠*/
+#content_wrap{
+  width: 1320px;
+  margin: 0 auto;
+  color:#323232;
+}
+
+#kin{
+  background-image: url(../images/banner/about1.png);
+  width: 1320px;
+  height: 91px;
+}
+
+.m1{
+margin: 0 auto;
+text-align: center;
+padding-top: 100px;
+font-size: 16px;
+font-weight: bold;
+padding-bottom: 170px;
+}
+
+
+
+
+#content{
+    width:1320px;
+    margin: 0 auto;
+
+  
+}
+
+.logobox{
+  width: 1050px;
+  margin: 0 auto;
+}
+
+.logobox li{  
+  margin-bottom: 40px;
+}
+
+
+#img_wrap{
+    width:1050px;
+    height: 373px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+
+}
+
+
+.imgbox1{
+  float: left;
+
+}
+
+.imgbox2{
+  float: right;
+
+}
+
+.imgbox3{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.textbox{
+  width: 1320px;
+  text-align: center;
+  padding-bottom: 200px;
+  font-size: 14px;
+  }
+
+.textbox2{
+  width: 1320px;
+  font-size: 14px;
+  text-align: center;
+  padding-bottom: 50px;
+  }
+
+
+.span2{
+  padding-bottom: 20px;
+}
+
+#beauty{
+  background-image: url(../images/banner/about2.png);
+  background-repeat: no-repeat;
+  width: 1320px;
+  height: 91px;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+
+.textbox3{
+  margin: 0 auto;
+  text-align: center;
+  font-size: 14px;
+  padding-bottom: 170px;
+  background-image: url(../images/image/shampoo.png);
+  background-repeat: no-repeat;
+  background-position: 140px 0px;
+  height: 200px;
+  }
+
+ 
+#health{
+  background-image: url(../images/banner/about3.png);
+  background-repeat: no-repeat;
+  width: 1320px;
+  height: 91px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+#fost{
+  background-image: url(../images/banner/about4.png);
+  background-repeat: no-repeat;
+  width: 1320px;
+  height: 91px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+
+
+
+/*footer*/
+#footer_wrap{
+	margin:0 auto;
+	width: 100%;
+	height: 280px;
+	background-color: #242025;
+	color: #fdfdfd;
+	font-size: 10px;
+	}
+	
+	#footer{
+	width: 1320px;
+	height: 280px;
+	margin: 0 auto;
+	background-image:url(../images/logo/footerlogo.png);
+	background-repeat: no-repeat;
+	background-position: left 60px center;
+	}
+	
+	.footerin{
+	padding-top: 85px;
+	width: 475px;
+	float: left;
+	margin-left: 430px;
+	}
+	
+	.span2{
+		float: left;
+	}
+	
+	.span3{
+	float: right;
+	}
+	
+	
+	#icons_wrap{
+	
+		width: 175px;
+		height: 60px;
+		float: right;
+		padding-top: 140px ;
+		padding-right: 100px;
+		text-align: center;
+	
+	}
+	
+	
+	.icons{
+		text-align: center;
+		width: 175px;
+	}
+	
+	.icons li{
+		
+		float: left;
+		width: 25%;
+		height: 30px;
+		margin: 0 auto;
+		
+	}
+	
